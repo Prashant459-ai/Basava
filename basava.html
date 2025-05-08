@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Basava Home Products</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url("C:/Users/pk440/OneDrive/Desktop/oil1.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+      color: #333;
+    }
+    header {
+      background-color: rgba(47, 133, 90, 0.9);
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+      animation: fadeIn 1s ease-in-out;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      background-color: rgba(230, 255, 250, 0.9);
+      padding: 1rem;
+      animation: slideIn 1s ease-in-out;
+    }
+    nav a {
+      text-decoration: none;
+      color: #2f855a;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem;
+      margin: 1rem;
+      border-radius: 12px;
+      background-color: transparent;
+      animation: fadeIn 1s ease-in-out;
+    }
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      justify-content: center;
+    }
+    .product {
+      border: 1px solid #ccc;
+      border-radius: 12px;
+      padding: 1rem;
+      width: 250px;
+      text-align: center;
+      background-color: rgba(255, 255, 255, 0.6);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+      transition: transform 0.3s ease;
+    }
+    .product:hover {
+      transform: translateY(-5px);
+    }
+    .product img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .product button {
+      background-color: #2f855a;
+      color: white;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      margin-top: 10px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+    .product button:hover {
+      background-color: #246e4b;
+    }
+    footer {
+      background-color: rgba(47, 133, 90, 0.9);
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes slideIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Basava Home Products</h1>
+    <p>Pure. Natural. Homemade.</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="home">
+    <h2>Welcome to Basava Home Products</h2>
+    <p>We offer premium, homemade products like coconut powder, coconut oil, and more — straight from nature to your home.</p>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Basava Home Products is dedicated to providing high-quality, natural home products made with traditional methods and lots of care. Our mission is to bring health and purity into every household.</p>
+  </section>
+
+  <section id="products">
+    <h2>Our Products</h2>
+    <div class="products">
+      <!-- Coconut Oil -->
+      <div class="product">
+        <img src="C:\Users\pk440\Downloads\coconut oil.png" alt="Coconut Oil">
+        <h3>Pure Coconut Oil</h3>
+        <h4>ತೆಂಗಿನೆಣ್ಣೆ</h4>
+        <p>Cold-pressed, 100% natural coconut oil.</p>
+        <p><strong>₹250 / 500ml</strong></p>
+        <a href="https://wa.me/916366283489?text=I%20want%20to%20buy%20Coconut%20Oil" target="_blank">
+          <button>Buy on WhatsApp</button>
+        </a>
+      </div>
+
+      <!-- Coconut Powder -->
+      <div class="product">
+        <img src="C:\Users\pk440\OneDrive\Desktop\coconut powder.png" alt="Coconut Powder">
+        <h3>Coconut Powder</h3>
+        <h4>ತೆಂಗಿನಕಾಯಿ ಪುಡಿ</h4>
+        <p>Fresh and aromatic, perfect for cooking.</p>
+        <p><strong>₹150 / 250g</strong></p>
+        <a href="https://wa.me/916366283489?text=I%20want%20to%20buy%20Coconut%20Powder" target="_blank">
+          <button>Buy on WhatsApp</button>
+        </a>
+      </div>
+
+      <!-- Groundnut Oil -->
+      <div class="product">
+        <img src="C:\Users\pk440\OneDrive\Desktop\groundnut oil.png" alt="Groundnut Oil">
+        <h3>Groundnut Oil</h3>
+        <h4>"ಶೇಂಗಾ ಎಣ್ಣೆ</h4>
+        <p>Rich in flavor, perfect for deep-frying and cooking.</p>
+        <p><strong>₹220 / 500ml</strong></p>
+        <a href="https://wa.me/916366283489?text=I%20want%20to%20buy%20Groundnut%20Oil" target="_blank">
+          <button>Buy on WhatsApp</button>
+        </a>
+      </div>
+
+      <!-- Sunflower Oil -->
+      <div class="product">
+        <img src="C:\Users\pk440\OneDrive\Desktop\sunflower oil.png" alt="Sunflower Oil">
+        <h3>Sunflower Oil</h3>
+        <h4> ಸೂರ್ಯಕಾಂತಿ ಎಣ್ಣೆ</h4>
+        <p>Light and healthy, ideal for everyday cooking.</p>
+        <p><strong>₹200 / 500ml</strong></p>
+        <a href="https://wa.me/916366283489?text=I%20want%20to%20buy%20Sunflower%20Oil" target="_blank">
+          <button>Buy on WhatsApp</button>
+        </a>
+      </div>
+
+      <!-- Sesame Oil -->
+      <div class="product">
+        <img src="C:\Users\pk440\OneDrive\Desktop\sesame oli.png" alt="Sesame Oil">
+        <h3>Sesame Oil</h3>
+        <h4>ಎಳ್ಳೆ ಎಣ್ಣೆ </h4>
+        <p>Aromatic and nutrient-rich, great for recipes and massage.</p>
+        <p><strong>₹270 / 500ml</strong></p>
+        <a href="https://wa.me/916366283489?text=I%20want%20to%20buy%20Sesame%20Oil" target="_blank">
+          <button>Buy on WhatsApp</button>
+        </a>
+      </div>
+
+      <!-- Safflower Oil -->
+      <div class="product">
+        <img src="C:\Users\pk440\OneDrive\Desktop\safflower oil.png" alt="Safflower Oil">
+        <h3>Safflower Oil</h3>
+        <h4>ಕುಸುಬು ಎಣ್ಣೆ</h4>
+        <p>Heart-healthy oil with a mild flavor.</p>
+        <p><strong>₹240 / 500ml</strong></p>
+        <a href="https://wa.me/916366283489?text=I%20want%20to%20buy%20Safflower%20Oil" target="_blank">
+          <button>Buy on WhatsApp</button>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:pk4404564@gmail.com">pk4404564@gmail.com</a></p>
+    <p>Phone: +91-6366283489</p>
+    <p><a href="https://wa.me/916366283489" target="_blank">Message us on WhatsApp</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Basava Home Products. All rights reserved.</p>
+  </footer>
+</body>
+</html>
